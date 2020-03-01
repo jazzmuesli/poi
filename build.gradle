@@ -89,6 +89,7 @@ allprojects {
 //        apply plugin: 'java-gradle-plugin'
         apply plugin: 'CkGradlePlugin'
    apply plugin: 'CombineMetricsGradlePlugin'
+   apply plugin: 'AnalyseTestcasesGradlePlugin'
 }
 
 /**
