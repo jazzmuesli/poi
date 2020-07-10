@@ -31,7 +31,8 @@ buildscript {
         classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.8"
 
         classpath 'org.pavelreich.saaremaa:tauksi-gradle-plugin:2.0-SNAPSHOT'
-        classpath 'com.github.jazzmuesli:ck-gradle-plugin:1.0-SNAPSHOT'
+        classpath 'com.github.jazzmuesli:ck-gradle-plugin:1.1-SNAPSHOT'
+classpath 'com.github.jazzmuesli:ckjm-gradle-plugin:1.0-SNAPSHOT'
     }
 }
 
@@ -88,6 +89,7 @@ allprojects {
 
 //        apply plugin: 'java-gradle-plugin'
         apply plugin: 'CkGradlePlugin'
+apply plugin: 'CkjmGradlePlugin'
    apply plugin: 'CombineMetricsGradlePlugin'
    apply plugin: 'AnalyseTestcasesGradlePlugin'
 }
